@@ -5,8 +5,8 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     github.com/project-slug: gmacastil/micro-dolar
     sonarqube.org/project-key: micro-dolar
-  description: "Aplicaci\xF3n en Java para c\xE1lculos relacionados con el d\xF3lar\
-    \ utilizando Spring."
+  description: Aplicación en Java para cálculos relacionados con el dólar utilizando
+    Spring.
   name: micro-dolar
   tags:
   - java
