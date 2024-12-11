@@ -15,23 +15,3 @@ spec:
   owner: gmacastil
   lifecycle: production
   system: discovery
-  providesApis:
-    - micro-dolar-api
----
-apiVersion: backstage.io/v1alpha1
-kind: API
-metadata:
-  name: micro-dolar-api
-  description: Aplicación en Java para cálculos relacionados con el dólar utilizando Spring.
-  annotations:
-    backstage.io/techdocs-ref: dir:.
-  tags:
-    - java
-    - spring
-spec:
-  type: openapi
-  owner: gmacastil
-  lifecycle: production
-  system: discovery
-  definition: 
-    $text: /docs/openapi.yaml
